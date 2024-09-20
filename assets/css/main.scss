@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'variables';
+@import 'buttons';
+
+* html, * body {
+    font-family: 'Open Sans';
+    background-color: $site-bg;
+}
+
+.global-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed';
+}
+
+.main {
+    flex-grow: 1;
+}
