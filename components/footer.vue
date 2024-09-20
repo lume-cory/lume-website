@@ -20,10 +20,9 @@
                         © 2024 <a href="/" class="hover:underline">Lume Security</a>. All Rights Reserved.
                     </span>
                     <span class="text-xs">
-                        <a href="/terms-of-service">Terms of Service</a>
+                        <NuxtLink to="/terms-of-service">Terms of Service</NuxtLink>
                         <span class="mx-4">|</span>
-                        <NuxtLink to="/privacy">Privacy 2</NuxtLink>
-                        <a href="/privacy">Privacy</a>
+                        <NuxtLink to="/privacy">Privacy</NuxtLink>
                     </span>
                 </div>
             </div>

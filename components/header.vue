@@ -16,9 +16,8 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
-                <NuxtLink to="/#about">About Me</NuxtLink>
-                <a href="/#about" class="nav-plain text-sm font-semibold leading-6 text-gray-900 px-5">About</a>
-                <a href="/#contact" class="button is-primary text-white py-2 px-4 rounded letter-spacing">Contact</a>
+                <NuxtLink to="/#about" class="nav-plain text-sm font-semibold leading-6 text-gray-900 px-5">About Me</NuxtLink>
+                <NuxtLink to="/#contact" class="button is-primary text-white py-2 px-4 rounded letter-spacing">Contact</NuxtLink>
             </div>
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
