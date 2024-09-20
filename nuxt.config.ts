@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
     ssr: false,
     app: {
-        baseURL: '/lume-website/', // baseURL: '/<repository>/'
+        baseURL: '/', // baseURL: '/<repository>/'
         buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
         head: {
             meta: [],
