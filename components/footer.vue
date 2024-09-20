@@ -22,6 +22,7 @@
                     <span class="text-xs">
                         <a href="/terms-of-service">Terms of Service</a>
                         <span class="mx-4">|</span>
+                        <NuxtLink to="/privacy">Privacy 2</NuxtLink>
                         <a href="/privacy">Privacy</a>
                     </span>
                 </div>
