@@ -11,25 +11,27 @@
                     <p>Join us in building the future of security.</p>
                 </div>
 
-                <div class="p-4 contact-form mx-auto max-w-xl bg-white font-[sans-serif]">
-                    <h1 class="text-3xl text-gray-800 font-extrabold text-center">Contact us</h1>
-                    <form class="mt-8 space-y-4">
-                        <input type='text' placeholder='Name'
-                            class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm " />
-                        <input type='email' placeholder='Email'
-                            class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm " />
-                        <input type='text' placeholder='Subject'
-                            class="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm " />
-                        <textarea placeholder='Message' rows="6"
-                            class="w-full rounded-md px-4 text-gray-800 bg-gray-100 focus:bg-transparent text-sm pt-3 "></textarea>
-                        <button type='button'
-                            class="button is-primary text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full">Send</button>
-                    </form>
+                <div class="contact-form w-full p-4 mx-auto max-w-xl bg-white font-[sans-serif]">
+                    <div id="lume-contact-form"></div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    window.hbspt.forms.create({
+        region: "na1",
+        portalId: "46735175",
+        formId: "33188ac9-434f-4549-9404-235dba9a71d0",
+        target: "#lume-contact-form"
+    });
+});
+
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/css/variables';
