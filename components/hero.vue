@@ -17,7 +17,7 @@
                     We’re building <strong>AI powered security solutions</strong> for all - not just the security team.
                 </p>
                 <div class="flex mt-8">
-                    <a href="/#contact" class="button is-primary h-12 text-white py-2 px-4 rounded letter-spacing">Contact</a>
+                    <NuxtLink to="/#contact" class="button is-primary h-12 text-white py-2 px-4 rounded letter-spacing">Contact</NuxtLink>
                 </div>
             </div>
             <div class="hero-image hidden sm:block sm:w-1/3 lg:w-3/5 relative pl-7 items-center content-center">
