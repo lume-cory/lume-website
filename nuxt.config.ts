@@ -18,6 +18,7 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto Condensed:400,700'},
                 { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open Sans:400,700'},
+                { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico'}
             ],
             script: [
                 {
